@@ -1,0 +1,25 @@
+{
+  "name": "servidorm2",
+  "version": "1.0.0",
+  "description": "Servidor que permite hacer reservas en el hotel intergaláctico",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "API",
+    "hotel",
+    "intergalactico"
+  ],
+  "author": "JLSF",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.13",
+    "yargs": "^17.0.1"
+  }
+}
